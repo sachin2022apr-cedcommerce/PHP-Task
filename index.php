@@ -1,6 +1,6 @@
 <?php
- $a="Welcome to";
-    $b="World";
+ $a=5;
+    $b=8;
     
-    echo $a." the PHP ".$b;
+    echo $a." + ".$b." = ".($a+$b) ;
 ?> 
