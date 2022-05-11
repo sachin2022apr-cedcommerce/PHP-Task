@@ -1,31 +1,11 @@
 <?php
-$day=6;
-switch($day)
-{
-    
-    case 1:
-        echo "Monday";
-        break;
-    case 2:
-        echo "Tuesday";
-        break;
-    case 3:
-        echo "Wednesday";
-        break;
-    case 4:
-        echo "Thursday";
-        break;
-    case 5:
-        echo "Friday";
-        break;
-    case 6:
-        echo "Saturday";
-        break;
-    case 7:
-        echo "Sunday";
-        break;
-    default:
-        echo "Invalid Number";
-}
+$num=6;
+$copy=$num;
+$factorial=1;
+    while($copy!=1){
+        $factorial *= $copy;
+        $copy--;
+    }
+echo "factorial of ".$num." = ".$factorial;
 
 ?> 
